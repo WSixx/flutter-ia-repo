@@ -18,10 +18,13 @@ class _MySplashScreenState extends State<MySplashScreen> {
         style: TextStyle(
           fontWeight: FontWeight.bold,
           fontSize: 25,
-          color: Color(0x00FFFF),
+          color: Colors.yellowAccent,
         ),
       ),
       image: Image.asset('assets/cat_dog_icon.png'),
+      backgroundColor: Colors.blueAccent,
+      photoSize: 80,
+      loaderColor: Colors.redAccent,
     );
   }
 }
