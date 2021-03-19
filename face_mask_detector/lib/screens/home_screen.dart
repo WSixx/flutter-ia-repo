@@ -1,6 +1,7 @@
 import 'package:camera/camera.dart';
 import 'package:face_mask_detector/main.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:tflite/tflite.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -87,7 +88,15 @@ class _HomeScreenState extends State<HomeScreen> {
           title: Padding(
             padding: EdgeInsets.only(top: 40.0),
             child: Center(
-              child: Text(''),
+              child: Text(
+                result,
+                style: TextStyle(
+                  backgroundColor: Colors.black54,
+                  fontSize: 30,
+                  color: Colors.white,
+                ),
+                textAlign: TextAlign.center,
+              ),
             ),
           ),
         ),
