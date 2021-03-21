@@ -1,3 +1,4 @@
+import 'package:cat_breed_identifier/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
